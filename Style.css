@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #282a36;
+    height: 182pt;
+    color: white;
+}
+
+.area_pin input {
+    width: 24px;
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid #55525c;
+    background: #21232d;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    transition: all 0.1s;
+}
+
+.area_pin input:focus {
+    border: 2px solid #a527ff;
+    box-shadow: 0 0 2px 2px #a527ff6a;
+}
+
+.space {
+    margin-right: 1rem !important;
+}
+
+h2 {
+    margin-top: 02rem;
+    font-size: 18px;
+}
